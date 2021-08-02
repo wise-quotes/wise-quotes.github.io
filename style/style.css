@@ -1,115 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700);
-*, *:before, *:after {
-  margin:0;
-  padding:0;
-  text-align: center;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-}
-body {
-  padding:3em 1em;
-  font-family: 'Ubuntu Mono', sans-serif;
-  line-height:1.6em;
-  text-align: center;
-  color:white;
-  background:#081421;
-}
-em {font-style:normal;font-size:1.2em;}
-i {font-style:normal;color:#00ff77;}
-h1, h2, h3, h4, p, hr, li, .etc {
-  width:100%;
-  max-width:40rem;
-  margin:0 auto;
-  text-align: center;
-}
-p {padding-bottom:1em;}
-h1 {
-  position:relative;
-  text-align: center;
-  padding:3rem 0 6rem 0;
-  font-size:3em;
-  line-height:1em;
-  font-weight:700;
-  text-transform:uppercase;
-  letter-spacing:5px;
-}
-h1:before {
-  content:'\3C\21\2013\2013';
-  position:absolute;
-  top:0;
-  left:0;
-  text-align: center;
-  color:#00ff77;
-}
-h1:after {
-  content:'\2013\2013\3E';
-  position:absolute;
-  bottom:3rem;
-  text-align: center;
-  left:0;
-  color:#fe0002;
-}
-hr {
-  position:relative;
-  padding:3rem 0;
-  border:none;
-  text-align: center;
-}
-hr:before {
-  content:'\2044\2217\2013\2013\2013\2013\2013\2217\2044';
-  position:absolute;
-  top:1.2rem;
-  right:0;
-  left:0;
-  text-align: center;
-  font-size:1.5em;
-  color:#0200fb;
-  text-align:center;
-}
-.etc {
-  position:relative;
-  padding:6rem 0 1rem 0;
-  text-align:center;
-  color:#fe0002;
-}
-.etc a {color:#fe0002;}
-.etc:before {
-  content:'\2022';
-  position:absolute;
-  top:1rem;
-  text-align: center;
-  left:50%;
-  color:white;
-  text-shadow:0 1rem 0 white,
-              0 2rem 0 white;
-
-  
-@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
-  .container {
-  height: 100%;
-  text-align: center;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.text {
-  font-weight: 100;
-  text-align: center;
-  font-size: 28px;
-  color: #fafafa;
-}
-
-@media screen and (max-width: 320px) {
-    .code-area {
-		font-size: 5vw;
-		min-width: auto;
-        width: 95%;
-		margin: auto;
-		padding: 5px;
-		padding-left: 10px;
-		line-height: 6.5vw;
-    }
-}
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100'
+html, body
+  font-family 'Roboto Mono', monospace
+  background #212121
+  height 100%
+.container
+  height 100%
+  width 100%
+  justify-content center
+  align-items center
+  display flex
+.text
+  font-weight 100
+  font-size 80px
+  color #FAFAFA
+.dud
+  color #757575
