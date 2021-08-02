@@ -5,11 +5,13 @@
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
   box-sizing:border-box;
+  text-align: center;
 }
 body {
   padding:3em 1em;
   font-family: 'Ubuntu Mono', sans-serif;
   line-height:1.6em;
+  text-align: center;
   color:white;
   background:#081421;
 }
@@ -18,6 +20,7 @@ i {font-style:normal;color:#00ff77;}
 h1, h2, h3, h4, p, hr, li, .etc {
   width:100%;
   max-width:40rem;
+  text-align: center;
   margin:0 auto;
 }
 p {padding-bottom:1em;}
@@ -27,6 +30,7 @@ h1 {
   font-size:3em;
   line-height:1em;
   font-weight:700;
+  text-align: center;
   text-transform:uppercase;
   letter-spacing:5px;
 }
@@ -35,12 +39,14 @@ h1:before {
   position:absolute;
   top:0;
   left:0;
+  text-align: center;
   color:#00ff77;
 }
 h1:after {
   content:'\2013\2013\3E';
   position:absolute;
   bottom:3rem;
+  text-align: center;
   left:0;
   color:#fe0002;
 }
@@ -48,6 +54,7 @@ hr {
   position:relative;
   padding:3rem 0;
   border:none;
+  text-align: center;
 }
 hr:before {
   content:'\2044\2217\2013\2013\2013\2013\2013\2217\2044';
@@ -55,6 +62,7 @@ hr:before {
   top:1.2rem;
   right:0;
   left:0;
+  text-align: center;
   font-size:1.5em;
   color:#0200fb;
   text-align:center;
@@ -70,6 +78,7 @@ hr:before {
   content:'\2022';
   position:absolute;
   top:1rem;
+  text-align: center;
   left:50%;
   color:white;
   text-shadow:0 1rem 0 white,
@@ -79,6 +88,7 @@ hr:before {
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
   .container {
   height: 100%;
+  text-align: center;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -87,6 +97,7 @@ hr:before {
 
 .text {
   font-weight: 100;
+  text-align: center;
   font-size: 28px;
   color: #fafafa;
 }
