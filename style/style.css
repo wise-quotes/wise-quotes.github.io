@@ -20,7 +20,6 @@ i {font-style:normal;color:#00ff77;}
 h1, h2, h3, h4, p, hr, li, .etc {
   width:100%;
   max-width:40rem;
-  text-align: center;
   margin:0 auto;
 }
 p {padding-bottom:1em;}
@@ -30,7 +29,6 @@ h1 {
   font-size:3em;
   line-height:1em;
   font-weight:700;
-  text-align: center;
   text-transform:uppercase;
   letter-spacing:5px;
 }
@@ -39,14 +37,12 @@ h1:before {
   position:absolute;
   top:0;
   left:0;
-  text-align: center;
   color:#00ff77;
 }
 h1:after {
   content:'\2013\2013\3E';
   position:absolute;
   bottom:3rem;
-  text-align: center;
   left:0;
   color:#fe0002;
 }
