@@ -78,12 +78,24 @@
 
 </head>
 <body>
+						 
+<!-- Buttons start -->
 <div class="em">
-<p><em><botton class="button" onclick="randomSite();">Shuffle</button></p></em>
-</div>
+<p><em><button class="button" onclick="legal();">Legal</button></em>
+<em><button class="button" onclick="randomSite();">Shuffle</button></em>
+<em><button class="button" onclick="home();">Home</button></p></em>
+</div>     
 <div class="container">
   <div class="text"></div>
 </div>
+<script>
+function legal() {
+  location.replace("https://wise-quotes.github.io/legal.html")
+}
+function home() {
+  location.replace("https://wise-quotes.github.io/home.html")
+}
+</script>
 <script>
     var sites = [
         './sayings=1.html',
@@ -93,6 +105,7 @@
         './sayings=5.html',
         './sayings=6.html',
         './sayings=7.html',
+        './sayings=8.html',
     ];
 
     function randomSite() {
@@ -100,6 +113,8 @@
         location.href = sites[i];
     }
 </script>
+<!-- Buttons end -->
+
   <script>
   class TextScramble {
 	  constructor(el) {
